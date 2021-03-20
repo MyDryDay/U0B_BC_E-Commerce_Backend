@@ -10,7 +10,6 @@ router.get('/', async (req, res) => {
   try{
     const categoryData = await Category.findAll({
       include: [{model: Product}],
-      order: [['category_name', 'ASC']],
     });
     
     res.status(200).json(categoryData);
