@@ -43,7 +43,7 @@ router.get('/:id', async (req, res) => {
     });
 
     if(!productData){
-      res.status(404).json({message: 'This tag ID does not exist.'});
+      res.status(404).json({message: 'This product ID does not exist.'});
       return;
     }
 
