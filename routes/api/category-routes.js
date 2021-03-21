@@ -1,6 +1,5 @@
 const router = require('express').Router();
 const { Category, Product } = require('../../models');
-const { findByPk } = require('../../models/Product');
 
 // The `/api/categories` endpoint
 
@@ -54,7 +53,7 @@ router.put('/:id', async (req, res) => {
   try{
     const categoryData = await Category.update(req.body, {
       where: {
-        id: req.params.id,
+        id: req.params.id
       },
     });
     
@@ -62,10 +61,10 @@ router.put('/:id', async (req, res) => {
       res.status(404).json({message: 'This category ID does not exist.'});
       return;
     }
-    
-    res.json(categoryData);
+
+    res.status(200).json(categoryData);
   } catch (err) {
-    res.status(400).json(err);
+    res.status(500).json(err);
   }
 });
 
@@ -75,7 +74,7 @@ router.delete('/:id', async (req, res) => {
     const categoryData = await Category.destroy({
       where: {
         id: req.params.id
-      }
+      },
     });
 
     if(!categoryData){

@@ -35,7 +35,7 @@ router.get('/:id', async (req, res) => {
         {
           model: Category
         }
-      ]
+      ],
     });
 
     if(!productData){
