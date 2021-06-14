@@ -26,12 +26,12 @@
   5. The URL you will need to use is as follows 'http://localhost:3001/api' followed by 'categories', 'products' or 'tags' depending on which endpoint you would like to test. 
   6. Fill out the request body and select which API method you would like to use. This project allows you to use 'GET', 'POST', 'PUT' and 'DELETE' methods. 
 
-  Creating & seeding the database, and starting the server demo: https://drive.google.com/file/d/1yhTE5U3mVQKGq4pDElxAViwxZWfPAriT/view?usp=sharing  
-  GET all routes for categories, products & tags demo: https://drive.google.com/file/d/10vh5oFA87ENJrqktqMT9bAge5sPyM-Yf/view?usp=sharing  
-  GET by ID routes for categories, products & tags demo: https://drive.google.com/file/d/1qDwzezcZRQw385mE9J14Kze1CfiGbxoW/view?usp=sharing  
-  POST, PUT & DELETE routes for categories demo: https://drive.google.com/file/d/1C_2qdGBhmULmAFZ0JL5N_BPISAL7CcgN/view?usp=sharing  
-  POST, PUT & DELETE routes for products demo: https://drive.google.com/file/d/1W86FYENyPp2AK38fft3zPE8vnCPRSpO0/view?usp=sharing  
-  POST, PUT & DELETE routes for tagss demo: https://drive.google.com/file/d/19DV50cZuCQ0YlxrqEqKzgpuGPQX0iTEb/view?usp=sharing  
+    Creating & seeding the database, and starting the server demo: https://drive.google.com/file/d/1yhTE5U3mVQKGq4pDElxAViwxZWfPAriT/view?usp=sharing  
+    GET all routes for categories, products & tags demo: https://drive.google.com/file/d/10vh5oFA87ENJrqktqMT9bAge5sPyM-Yf/view?usp=sharing  
+    GET by ID routes for categories, products & tags demo: https://drive.google.com/file/d/1qDwzezcZRQw385mE9J14Kze1CfiGbxoW/view?usp=sharing  
+    POST, PUT & DELETE routes for categories demo: https://drive.google.com/file/d/1C_2qdGBhmULmAFZ0JL5N_BPISAL7CcgN/view?usp=sharing  
+    POST, PUT & DELETE routes for products demo: https://drive.google.com/file/d/1W86FYENyPp2AK38fft3zPE8vnCPRSpO0/view?usp=sharing  
+    POST, PUT & DELETE routes for tagss demo: https://drive.google.com/file/d/19DV50cZuCQ0YlxrqEqKzgpuGPQX0iTEb/view?usp=sharing  
 
   ### License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT) 
  
