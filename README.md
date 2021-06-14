@@ -36,7 +36,7 @@
     
    [POST, PUT & DELETE routes for products demo: ](https://drive.google.com/file/d/1W86FYENyPp2AK38fft3zPE8vnCPRSpO0/view?usp=sharing)  
     
-   [POST, PUT & DELETE routes for tagss demo: ](https://drive.google.com/file/d/19DV50cZuCQ0YlxrqEqKzgpuGPQX0iTEb/view?usp=sharing)  
+   [POST, PUT & DELETE routes for tags demo: ](https://drive.google.com/file/d/19DV50cZuCQ0YlxrqEqKzgpuGPQX0iTEb/view?usp=sharing)  
 
   ### License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT) 
  
